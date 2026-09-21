@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harsh Crafts | Garment Manufacturing &amp; Job Work in Udaipur</title>
+<meta name="description" content="Harsh Crafts is a garment manufacturing and job-work business in Udaipur, Rajasthan, specializing in shirts and ladies' wear.">
+<meta name="theme-color" content="#131210">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Harsh Crafts | Garment Manufacturing &amp; Job Work in Udaipur">
+<meta property="og:description" content="Harsh Crafts is a garment manufacturing and job-work business in Udaipur, Rajasthan, specializing in shirts and ladies' wear.">
+<!-- Add og:image once factory/product photography is available, e.g. <meta property="og:image" content="images/og-cover.jpg"> -->
+
+<!--
+  FAVICON PLACEHOLDER
+  Replace the line below with your own favicon once the logo is ready, e.g.:
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  For now this uses a small inline monogram so the browser tab isn't blank.
+-->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23131210'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23F7F5F0' text-anchor='middle'%3EHC%3C/text%3E%3C/svg%3E">
+
+<!-- Structured data: only facts provided in the brief are included (no phone, email or address yet) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Harsh Crafts",
+  "description": "Garment manufacturing and stitching job-work business based in Udaipur, Rajasthan, specializing in shirts and ladies' wear.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Udaipur",
+    "addressRegion": "Rajasthan",
+    "addressCountry": "IN"
+  },
+  "knowsAbout": ["Garment Manufacturing", "Shirt Manufacturing", "Ladies' Wear Manufacturing", "Stitching Job Work", "Garment Sampling"]
+}
+</script>
+
+<!--
+  WEB FONTS
+  Archivo (sans, headings + body) and Fraunces (serif, used sparingly for editorial emphasis).
+  Fallback stacks below mean the layout still reads correctly if this request fails or is blocked.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+
+<style>
+/* ==================================================================
+   TOKENS
+   ================================================================== */
+:root{
+  --ink:#251040;
+  --ink-soft:#3A1C54;
+  --paper:#FAF8FC;
+  --stone:#D5C7E9;
+  --stone-line:#AF95C7;
+  --ash:#6E6475;
+  --white:#FFFFFF;
+  --accent:#580E7B;
+  --accent-soft:#580E7B14;
+
+  --font-sans:'Archivo', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-serif:'Fraunces', ui-serif, Georgia, 'Times New Roman', serif;
+
+  --container:1280px;
+  --gutter:clamp(1.25rem, 4vw, 3.5rem);
+
+  --fs-h1:clamp(2.75rem, 5.4vw + 1rem, 6.75rem);
+  --fs-h2:clamp(2.1rem, 2.6vw + 1rem, 3.5rem);
+  --fs-h3:clamp(1.3rem, 0.8vw + 1rem, 1.75rem);
+  --fs-lead:clamp(1.05rem, 0.4vw + 0.95rem, 1.3rem);
+  --fs-body:clamp(1rem, 0.15vw + 0.95rem, 1.0625rem);
+  --fs-small:0.875rem;
+  --fs-eyebrow:0.8125rem;
+
+  --ease:cubic-bezier(.4,0,.2,1);
+  --dur:.5s;
+}
+
+/* ==================================================================
+   RESET
+   ================================================================== */
+*,*::before,*::after{box-sizing:border-box;}
+html{
+  -webkit-text-size-adjust:100%;
+  scroll-padding-top:5.5rem;
+}
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth;}
+}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-sans);
+  font-size:var(--fs-body);
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img,svg{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+ul{margin:0;padding:0;list-style:none;}
+h1,h2,h3,p{margin:0;}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0;}
+input,textarea{font:inherit;}
+
+:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:3px;
+}
+
+.skip-link{
+  position:absolute;
+  left:1rem;
+  top:-4rem;
+  background:var(--ink);
+  color:var(--paper);
+  padding:.75rem 1.25rem;
+  z-index:200;
+  transition:top .2s var(--ease);
+  border-radius:2px;
+}
+.skip-link:focus{top:1rem;}
+
+.container{
+  max-width:var(--container);
+  margin-inline:auto;
+  padding-inline:var(--gutter);
+}
+
+/* ==================================================================
+   TYPOGRAPHY HELPERS
+   ================================================================== */
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:.6em;
+  font-size:var(--fs-eyebrow);
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--ash);
+  font-weight:600;
+}
+.eyebrow::before{
+  content:"";
+  width:1.25rem;
+  height:1px;
+  background:var(--accent);
+  flex:none;
+}
+.eyebrow--light{color:var(--stone);}
+.eyebrow--light::before{background:var(--paper);}
+
+.serif{font-family:var(--font-serif);font-weight:400;font-style:normal;}
+
+.section-head{
+  display:flex;
+  flex-direction:column;
+  gap:1.25rem;
+  max-width:44rem;
+  margin-bottom:clamp(2.5rem,5vw,4.5rem);
+}
+.section-head h2{
+  font-size:var(--fs-h2);
+  line-height:1.08;
+  letter-spacing:-.01em;
+  font-weight:700;
+}
+.section-head--wide{max-width:none;}
+
+/* ==================================================================
+   BUTTONS
+   ================================================================== */
+.btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:.6rem;
+  padding:1rem 1.9rem;
+  font-size:.9375rem;
+  font-weight:600;
+  letter-spacing:.02em;
+  border:1px solid var(--ink);
+  border-radius:2px;
+  white-space:nowrap;
+  overflow:hidden;
+  z-index:0;
+  transform:translate(var(--tx,0px),var(--ty,0px)) scale(var(--btn-scale,1));
+  transition:color var(--dur) var(--ease), border-color var(--dur) var(--ease), transform .2s var(--ease);
+}
+.btn.is-dragging{transition:color var(--dur) var(--ease), border-color var(--dur) var(--ease), transform .08s linear;}
+.btn::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .45s var(--ease);
+}
+.btn:active{--btn-scale:0.96;}
+.btn-primary{background:var(--ink);color:var(--paper);}
+.btn-primary::before{background:var(--ink-soft);}
+.btn-primary:hover::before{transform:scaleX(1);}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--ink);}
+.btn-ghost::before{background:var(--ink);}
+.btn-ghost:hover{color:var(--paper);}
+.btn-ghost:hover::before{transform:scaleX(1);}
+.btn-on-dark{border-color:var(--paper);color:var(--paper);}
+.btn-on-dark.btn-primary{background:var(--paper);color:var(--ink);}
+.btn-on-dark.btn-primary::before{background:var(--stone);}
+.btn-on-dark.btn-primary:hover{color:var(--ink);}
+.btn-on-dark.btn-ghost::before{background:var(--paper);}
+.btn-on-dark.btn-ghost:hover{color:var(--ink);}
+.btn-small{padding:.7rem 1.35rem;font-size:.8125rem;}
+.btn-large{padding:1.25rem 2.5rem;font-size:1rem;}
+@media (prefers-reduced-motion:reduce){
+  .btn::before{display:none;}
+}
+
+/* ==================================================================
+   REVEAL ANIMATION
+   ================================================================== */
+.reveal{
+  opacity:0;
+  transform:translateY(18px);
+  transition:opacity .7s var(--ease), transform .7s var(--ease);
+}
+.reveal.is-visible{opacity:1;transform:translateY(0);}
+.reveal.reveal-img{transform:scale(.96);}
+.reveal.reveal-img.is-visible{transform:scale(1);}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none;}
+}
+
+/* ==================================================================
+   IMAGE PLACEHOLDERS
+   Swap instructions are given in HTML comments beside each usage.
+   ================================================================== */
+.img-placeholder{
+  position:relative;
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:var(--stone);
+  background-image:repeating-linear-gradient(135deg, rgba(19,18,16,.07) 0 1px, transparent 1px 13px);
+  border:1px solid var(--stone-line);
+  overflow:hidden;
+}
+.img-placeholder__inner{
+  text-align:center;
+  padding:1.5rem;
+  color:var(--ash);
+}
+.img-placeholder__inner svg{margin:0 auto .75rem;opacity:.6;}
+.img-placeholder__label{
+  display:block;
+  font-size:.75rem;
+  font-weight:700;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+}
+.img-placeholder__hint{
+  display:block;
+  font-size:.75rem;
+  color:var(--ash);
+  margin-top:.35rem;
+  max-width:16rem;
+}
+
+/* ==================================================================
+   GRAIN TEXTURE OVERLAY
+   ================================================================== */
+.grain-overlay{
+  position:fixed;
+  inset:-10%;
+  z-index:150;
+  pointer-events:none;
+  opacity:.04;
+  mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:180px 180px;
+}
+@media (prefers-reduced-motion:no-preference){
+  .grain-overlay{animation:grainShift 1.1s steps(5) infinite;}
+}
+@keyframes grainShift{
+  0%{transform:translate(0,0);}
+  20%{transform:translate(-1.5%,1%);}
+  40%{transform:translate(1%,-1.5%);}
+  60%{transform:translate(-1%,-1%);}
+  80%{transform:translate(1.5%,1%);}
+  100%{transform:translate(0,0);}
+}
+
+/* ==================================================================
+   SCROLL PROGRESS
+   ================================================================== */
+.scroll-progress{
+  position:fixed;
+  top:0;left:0;right:0;
+  height:2px;
+  z-index:110;
+  pointer-events:none;
+  background:transparent;
+}
+.scroll-progress span{
+  display:block;
+  height:100%;
+  width:0%;
+  background:var(--accent);
+}
+@media (prefers-reduced-motion:no-preference){
+  .scroll-progress span{transition:width .12s linear;}
+}
+
+/* ==================================================================
+   HEADER
+   ================================================================== */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:var(--paper);
+  border-bottom:1px solid transparent;
+}
+.site-header.is-scrolled{
+  border-bottom-color:var(--stone-line);
+  background:#F7F5F0f2;
+  -webkit-backdrop-filter:blur(8px);
+  backdrop-filter:blur(8px);
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1.5rem;
+  padding-block:1.1rem;
+}
+.logo-mark{display:flex;flex-direction:column;line-height:1;gap:.3rem;}
+.logo-name{
+  font-size:1.05rem;
+  font-weight:800;
+  letter-spacing:.02em;
+}
+.logo-sub{
+  font-size:.625rem;
+  font-weight:600;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--ash);
+}
+.site-nav{display:none;}
+.site-nav ul{display:flex;gap:2.1rem;}
+.site-nav a{
+  font-size:.875rem;
+  font-weight:500;
+  position:relative;
+  padding-block:.3rem;
+}
+.site-nav a::after{
+  content:"";
+  position:absolute;
+  left:0;right:100%;bottom:0;
+  height:1px;
+  background:var(--ink);
+  transition:right var(--dur) var(--ease);
+}
+.site-nav a:hover::after,
+.site-nav a.is-active::after{right:0;}
+.site-nav a.is-active{color:var(--ink);}
+
+.header-actions{display:flex;align-items:center;gap:1rem;}
+.header-actions .btn{display:none;}
+
+.menu-toggle{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:2.5rem;
+  height:2.5rem;
+  border:1px solid var(--stone-line);
+  border-radius:2px;
+}
+.menu-toggle svg{width:1.15rem;height:1.15rem;}
+.menu-toggle .icon-close{display:none;}
+.menu-toggle[aria-expanded="true"] .icon-open{display:none;}
+.menu-toggle[aria-expanded="true"] .icon-close{display:block;}
+
+.mobile-nav{
+  position:fixed;
+  inset:0;
+  top:0;
+  background:var(--ink);
+  color:var(--paper);
+  z-index:99;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding:6rem var(--gutter) 3rem;
+  transform:translateY(-100%);
+  transition:transform .45s var(--ease);
+}
+.mobile-nav.is-open{transform:translateY(0);}
+.mobile-nav ul{display:flex;flex-direction:column;gap:1.6rem;}
+.mobile-nav a{font-size:1.9rem;font-weight:700;font-family:var(--font-sans);}
+.mobile-nav ul li{
+  opacity:0;
+  transform:translateY(16px);
+  transition:opacity .5s var(--ease), transform .5s var(--ease);
+}
+.mobile-nav.is-open ul li{opacity:1;transform:translateY(0);}
+.mobile-nav.is-open ul li:nth-child(1){transition-delay:.14s;}
+.mobile-nav.is-open ul li:nth-child(2){transition-delay:.2s;}
+.mobile-nav.is-open ul li:nth-child(3){transition-delay:.26s;}
+.mobile-nav.is-open ul li:nth-child(4){transition-delay:.32s;}
+.mobile-nav.is-open ul li:nth-child(5){transition-delay:.38s;}
+.mobile-nav .mobile-nav-foot{
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  border-top:1px solid #ffffff26;
+  padding-top:1.75rem;
+  opacity:0;
+  transform:translateY(16px);
+  transition:opacity .5s var(--ease) .42s, transform .5s var(--ease) .42s;
+}
+.mobile-nav.is-open .mobile-nav-foot{opacity:1;transform:translateY(0);}
+.mobile-nav .mobile-nav-foot p{color:var(--stone);font-size:.875rem;}
+@media (prefers-reduced-motion:reduce){
+  .mobile-nav ul li,
+  .mobile-nav .mobile-nav-foot{opacity:1 !important;transform:none !important;transition:none !important;}
+}
+
+@media (min-width:900px){
+  .site-nav{display:block;}
+  .header-actions .btn{display:inline-flex;}
+  .menu-toggle{display:none;}
+  .mobile-nav{display:none;}
+}
+
+/* ==================================================================
+   HERO
+   ================================================================== */
+.hero{
+  padding-top:clamp(2.5rem,5vw,4.5rem);
+  padding-bottom:clamp(3rem,6vw,5rem);
+  overflow:hidden;
+}
+.hero-grid{
+  display:grid;
+  gap:clamp(2.5rem,5vw,4rem);
+}
+.hero-copy{max-width:40rem;}
+.hero h1{
+  font-size:var(--fs-h1);
+  line-height:.98;
+  letter-spacing:-.015em;
+  font-weight:800;
+  margin-block:1.5rem 1.75rem;
+  text-wrap:balance;
+}
+.hero h1 span{display:block;}
+.hero-lead{
+  font-size:var(--fs-lead);
+  color:var(--ink-soft);
+  max-width:34rem;
+  margin-bottom:2.25rem;
+}
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem 1.5rem;
+  align-items:center;
+}
+.hero-actions .btn-ghost{border-color:var(--stone-line);}
+.hero-actions .btn-ghost:hover{border-color:var(--ink);}
+
+.hero-visual{position:relative;}
+.hero-visual .img-placeholder{aspect-ratio:4/5;}
+.badge-seal{
+  position:absolute;
+  left:-1rem;
+  bottom:-2rem;
+  width:clamp(7.5rem,16vw,9.5rem);
+  height:clamp(7.5rem,16vw,9.5rem);
+  border-radius:50%;
+  background:var(--ink);
+  border:1px solid var(--ink);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.badge-seal-ring{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  animation:sealSpin 28s linear infinite;
+}
+.badge-seal-ring text{
+  font-family:var(--font-sans);
+  font-size:9.5px;
+  font-weight:600;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  fill:var(--stone);
+}
+.badge-seal-center{
+  position:relative;
+  text-align:center;
+  color:var(--paper);
+  padding:0 1.6rem;
+}
+.badge-seal-center strong{
+  display:block;
+  font-family:var(--font-serif);
+  font-weight:500;
+  font-size:clamp(1.4rem,3vw,1.75rem);
+  line-height:1;
+  margin-bottom:.3rem;
+}
+.badge-seal-center span{
+  font-size:.5625rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--stone);
+}
+@keyframes sealSpin{ to{ transform:rotate(360deg); } }
+@media (prefers-reduced-motion:reduce){
+  .badge-seal-ring{animation:none;}
+}
+
+@media (min-width:900px){
+  .hero-grid{grid-template-columns:1.1fr .9fr;align-items:center;}
+  .badge-seal{left:auto;right:-1.5rem;bottom:2.5rem;}
+}
+
+@media (prefers-reduced-motion:no-preference){
+  .hero-copy > .eyebrow,
+  .hero h1 span,
+  .hero-lead,
+  .hero-actions,
+  .hero-visual{
+    opacity:0;
+    animation:heroFadeUp .85s var(--ease) forwards;
+  }
+  .hero-copy > .eyebrow{animation-delay:.05s;}
+  .hero h1 span:nth-child(1){animation-delay:.16s;}
+  .hero h1 span:nth-child(2){animation-delay:.28s;}
+  .hero h1 span:nth-child(3){animation-delay:.4s;}
+  .hero-lead{animation-delay:.56s;}
+  .hero-actions{animation-delay:.7s;}
+  .hero-visual{animation-delay:.4s;animation-duration:1.05s;}
+}
+@keyframes heroFadeUp{
+  from{opacity:0;transform:translateY(26px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* ==================================================================
+   CAPABILITY MARQUEE
+   ================================================================== */
+.marquee{
+  overflow:hidden;
+  background:var(--paper);
+  border-block:1px solid var(--stone-line);
+}
+.marquee-track{
+  display:flex;
+  align-items:center;
+  gap:1.5rem;
+  width:max-content;
+  padding-block:1.1rem;
+  animation:marqueeScroll 32s linear infinite;
+}
+.marquee:hover .marquee-track{animation-play-state:paused;}
+.marquee-item{
+  font-size:.8125rem;
+  font-weight:600;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--ash);
+  white-space:nowrap;
+}
+.marquee-sep{color:var(--accent);}
+@keyframes marqueeScroll{
+  from{transform:translateX(0);}
+  to{transform:translateX(-50%);}
+}
+@media (prefers-reduced-motion:reduce){
+  .marquee-track{animation:none;flex-wrap:wrap;}
+  .marquee-dup{display:none;}
+}
+
+/* ==================================================================
+   CAPABILITY BAR
+   ================================================================== */
+.cap-bar{
+  background:var(--ink);
+  color:var(--paper);
+}
+.cap-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+}
+.cap-item{
+  padding:clamp(1.75rem,4vw,2.75rem) clamp(1.25rem,3vw,2.5rem);
+  border-top:1px solid #ffffff26;
+  border-right:1px solid #ffffff26;
+}
+.cap-item:nth-child(2n){border-right:none;}
+.cap-item dt{
+  font-family:var(--font-serif);
+  font-size:clamp(1.9rem,3vw,2.5rem);
+  line-height:1;
+  margin-bottom:.6rem;
+}
+.cap-item dd{
+  margin:0;
+  font-size:.75rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--stone);
+}
+@media (min-width:700px){
+  .cap-grid{grid-template-columns:repeat(4,1fr);}
+  .cap-item{border-top:none;border-left:1px solid #ffffff26;border-right:none;}
+  .cap-item:first-child{border-left:none;}
+}
+
+/* ==================================================================
+   INTRO
+   ================================================================== */
+.intro{
+  padding-block:clamp(4rem,8vw,7rem);
+  position:relative;
+}
+.intro-grid{
+  display:grid;
+  gap:2.5rem;
+  align-items:start;
+}
+.intro-mark{
+  font-family:var(--font-serif);
+  font-size:clamp(6rem,18vw,11rem);
+  line-height:.8;
+  color:var(--stone);
+  font-weight:400;
+  user-select:none;
+}
+.intro-body{max-width:38rem;}
+.intro-body h2{
+  font-size:var(--fs-h2);
+  line-height:1.1;
+  font-weight:700;
+  letter-spacing:-.01em;
+  margin-bottom:1.5rem;
+}
+.intro-body p{font-size:var(--fs-lead);color:var(--ink-soft);}
+@media (min-width:900px){
+  .intro-grid{grid-template-columns:.7fr 1.3fr;}
+}
+
+/* ==================================================================
+   SERVICES
+   ================================================================== */
+.services{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);}
+.service-list{
+  display:grid;
+  gap:0;
+  border-top:1px solid var(--stone-line);
+}
+.service-item{
+  display:grid;
+  gap:1rem 2.5rem;
+  padding-block:clamp(1.75rem,4vw,2.5rem);
+  border-bottom:1px solid var(--stone-line);
+  transition:background var(--dur) var(--ease);
+}
+.service-item:hover{background:var(--stone);}
+.service-num{
+  font-family:var(--font-serif);
+  font-size:1.5rem;
+  color:var(--accent);
+  display:inline-block;
+  transition:transform .35s var(--ease);
+}
+.service-item:hover .service-num{transform:translateX(5px);}
+.service-item h3{font-size:var(--fs-h3);font-weight:700;margin-bottom:.6rem;}
+.service-item p{color:var(--ink-soft);max-width:34rem;}
+@media (min-width:700px){
+  .service-item{
+    grid-template-columns:5rem 1fr;
+  }
+}
+
+/* ==================================================================
+   WHAT WE MAKE
+   ================================================================== */
+.what-we-make{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);}
+.make-grid{
+  display:grid;
+  gap:2rem;
+}
+.make-card{position:relative;}
+.make-card .img-placeholder{aspect-ratio:4/5;}
+.make-card figure{margin:0;overflow:hidden;}
+.make-card .img-placeholder{transition:transform .6s var(--ease);}
+.make-card figure:hover .img-placeholder{transform:scale(1.035);}
+.make-card figcaption{
+  padding-top:1.1rem;
+  display:flex;
+  flex-direction:column;
+  gap:.25rem;
+}
+.make-card h3{font-size:1.15rem;font-weight:700;}
+.make-card p{font-size:.9375rem;color:var(--ash);}
+@media (min-width:700px){
+  .make-grid{grid-template-columns:repeat(3,1fr);}
+}
+
+/* ==================================================================
+   PROCESS
+   ================================================================== */
+.process{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);}
+.process-track{
+  display:grid;
+  gap:0;
+  position:relative;
+}
+.process-step{
+  position:relative;
+  padding:0 0 clamp(2rem,4vw,2.5rem) clamp(1.75rem,4vw,2.5rem);
+}
+.process-step:last-child{padding-bottom:0;}
+.process-connector{
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:1px;
+  background:var(--stone-line);
+  transform:scaleY(0);
+  transform-origin:top;
+  transition:transform .8s var(--ease) .1s;
+}
+.process-step.is-visible .process-connector{transform:scaleY(1);}
+.process-step::before{
+  content:"";
+  position:absolute;
+  left:-4px;
+  top:.4rem;
+  width:7px;
+  height:7px;
+  background:var(--accent);
+  border-radius:50%;
+  transform:scale(0);
+  transition:transform .4s var(--ease) .35s;
+}
+.process-step.is-visible::before{transform:scale(1);}
+.process-num{
+  font-family:var(--font-serif);
+  font-size:1.5rem;
+  color:var(--ash);
+  display:block;
+  margin-bottom:.5rem;
+}
+.process-step h3{font-size:1.15rem;font-weight:700;margin-bottom:.5rem;}
+.process-step p{color:var(--ink-soft);max-width:22rem;font-size:.9375rem;}
+
+@media (min-width:900px){
+  .process-track{grid-template-columns:repeat(5,1fr);}
+  .process-step{
+    padding:clamp(1.75rem,3vw,2.25rem) clamp(1.25rem,2vw,1.75rem) 0 0;
+  }
+  .process-connector{
+    left:0;right:0;top:0;bottom:auto;width:auto;height:1px;
+    transform:scaleX(0);
+    transform-origin:left;
+  }
+  .process-step.is-visible .process-connector{transform:scaleX(1);}
+  .process-step::before{left:-4px;top:-4px;}
+}
+@media (prefers-reduced-motion:reduce){
+  .process-connector{transform:none !important;transition:none;}
+  .process-step::before{transform:none !important;transition:none;}
+}
+
+/* ==================================================================
+   FACTORY / PRODUCTION
+   ================================================================== */
+.factory{
+  position:relative;
+  overflow:hidden;
+  background:var(--ink);
+  color:var(--paper);
+  padding-block:clamp(4rem,8vw,7rem);
+  --mx:50%;
+  --my:20%;
+}
+.factory::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(560px circle at var(--mx) var(--my), rgba(247,245,240,.07), transparent 62%);
+  pointer-events:none;
+}
+.factory > .container{position:relative;z-index:1;}
+.factory-head{
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  max-width:40rem;
+  margin-bottom:clamp(2.5rem,5vw,4rem);
+}
+.factory-head h2{
+  font-size:var(--fs-h2);
+  font-weight:700;
+  line-height:1.08;
+  letter-spacing:-.01em;
+}
+.factory-head p{color:var(--stone);font-size:var(--fs-lead);}
+.factory-grid{
+  display:grid;
+  gap:1rem;
+  grid-template-columns:repeat(2,1fr);
+}
+.factory-item{overflow:hidden;}
+.factory-grid .img-placeholder{
+  background-color:#26241f;
+  background-image:repeating-linear-gradient(135deg, rgba(247,245,240,.06) 0 1px, transparent 1px 13px);
+  border-color:#3a372f;
+  transition:transform .6s var(--ease);
+}
+.factory-item:hover .img-placeholder{transform:scale(1.03);}
+.factory-grid .img-placeholder__label{color:var(--paper);}
+.factory-grid .img-placeholder__hint{color:var(--stone);}
+.factory-item:nth-child(1){grid-column:span 2;}
+.factory-item .img-placeholder{aspect-ratio:16/10;}
+.factory-item:nth-child(1) .img-placeholder{aspect-ratio:16/9;}
+@media (min-width:700px){
+  .factory-grid{grid-template-columns:repeat(4,1fr);}
+  .factory-item:nth-child(1){grid-column:span 2;grid-row:span 2;}
+  .factory-item:nth-child(1) .img-placeholder{aspect-ratio:1/1;height:100%;}
+}
+
+/* ==================================================================
+   ABOUT
+   ================================================================== */
+.about{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);}
+.about-grid{display:grid;gap:2.5rem;}
+.about-head h2{
+  font-size:var(--fs-h2);
+  font-weight:700;
+  line-height:1.1;
+  letter-spacing:-.01em;
+}
+.about-body{max-width:36rem;display:flex;flex-direction:column;gap:1.25rem;}
+.about-body p{color:var(--ink-soft);font-size:var(--fs-lead);}
+.about-body p:first-of-type::first-letter{
+  font-family:var(--font-serif);
+  font-size:3.4rem;
+  font-weight:500;
+  float:left;
+  line-height:.78;
+  padding-right:.4rem;
+  padding-top:.15rem;
+  color:var(--accent);
+}
+.about-owner{
+  margin-top:.75rem;
+  padding-top:1.5rem;
+  border-top:1px solid var(--stone-line);
+}
+.about-owner span{display:block;}
+.about-owner .owner-name{font-family:var(--font-serif);font-size:1.5rem;}
+.about-owner .owner-role{font-size:.8125rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ash);margin-top:.35rem;}
+@media (min-width:900px){
+  .about-grid{grid-template-columns:.8fr 1.2fr;}
+}
+
+/* ==================================================================
+   WHY WORK WITH US
+   ================================================================== */
+.why-us{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);background:var(--stone);}
+.why-grid{
+  display:grid;
+  gap:0;
+  border-top:1px solid var(--stone-line);
+  border-left:1px solid var(--stone-line);
+}
+.why-item{
+  padding:clamp(1.75rem,3vw,2.25rem);
+  border-right:1px solid var(--stone-line);
+  border-bottom:1px solid var(--stone-line);
+  background:var(--paper);
+}
+.why-item h3{font-size:1.05rem;font-weight:700;margin-bottom:.6rem;}
+.why-item p{font-size:.9375rem;color:var(--ash);}
+@media (min-width:700px){
+  .why-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media (min-width:1080px){
+  .why-grid{grid-template-columns:repeat(3,1fr);}
+}
+
+/* ==================================================================
+   PRIMARY CTA
+   ================================================================== */
+.cta-primary{
+  position:relative;
+  overflow:hidden;
+  background:var(--ink);
+  color:var(--paper);
+  padding-block:clamp(4.5rem,9vw,8rem);
+  --mx:20%;
+  --my:50%;
+}
+.cta-primary::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(560px circle at var(--mx) var(--my), rgba(247,245,240,.07), transparent 62%);
+  pointer-events:none;
+}
+.cta-primary > .container{position:relative;z-index:1;}
+.cta-inner{max-width:42rem;}
+.cta-inner .eyebrow{margin-bottom:1.5rem;}
+.cta-inner h2{
+  font-size:var(--fs-h2);
+  font-weight:800;
+  line-height:1.05;
+  letter-spacing:-.01em;
+  margin-bottom:1rem;
+}
+.cta-sub{
+  font-family:var(--font-serif);
+  font-size:clamp(1.25rem,1.8vw,1.6rem);
+  color:var(--stone);
+  margin-bottom:1.25rem;
+}
+.cta-copy{color:var(--stone);font-size:var(--fs-lead);margin-bottom:2.5rem;max-width:32rem;}
+
+/* ==================================================================
+   CONTACT
+   ================================================================== */
+.contact{padding-block:clamp(4rem,8vw,7rem);border-top:1px solid var(--stone-line);}
+.contact-grid{display:grid;gap:2.5rem;}
+.contact-list{display:grid;gap:0;border-top:1px solid var(--stone-line);}
+.contact-row{
+  display:grid;
+  grid-template-columns:8rem 1fr;
+  gap:1rem;
+  padding-block:1.5rem;
+  border-bottom:1px solid var(--stone-line);
+}
+.contact-row dt{
+  font-size:.75rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--ash);
+  font-weight:600;
+}
+.contact-row dd{margin:0;font-size:1.15rem;font-family:var(--font-serif);}
+.contact-row dd.is-placeholder{color:var(--ash);font-family:var(--font-sans);font-style:italic;font-size:1rem;}
+.contact-cta{
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  align-items:flex-start;
+  justify-content:center;
+  padding:clamp(1.75rem,3vw,2.5rem);
+  background:var(--stone);
+  border:1px solid var(--stone-line);
+}
+.contact-cta p{color:var(--ink-soft);max-width:24rem;}
+@media (min-width:900px){
+  .contact-grid{grid-template-columns:1.2fr .8fr;}
+}
+
+/* ==================================================================
+   FOOTER
+   ================================================================== */
+.site-footer{
+  border-top:1px solid var(--stone-line);
+  padding-block:clamp(3rem,6vw,4.5rem) 2rem;
+}
+.footer-top{
+  display:grid;
+  gap:2.5rem;
+  padding-bottom:clamp(2rem,4vw,3rem);
+}
+.footer-brand .logo-name{font-size:1.25rem;}
+.footer-brand p{
+  margin-top:1.25rem;
+  max-width:26rem;
+  color:var(--ash);
+}
+.footer-nav{display:flex;flex-wrap:wrap;gap:.75rem 2rem;}
+.footer-nav a{font-size:.9375rem;font-weight:500;}
+.footer-nav a:hover{color:var(--accent);}
+.footer-bottom{
+  display:flex;
+  flex-direction:column;
+  gap:.75rem;
+  padding-top:1.75rem;
+  border-top:1px solid var(--stone-line);
+  font-size:.8125rem;
+  color:var(--ash);
+}
+@media (min-width:700px){
+  .footer-top{grid-template-columns:1.4fr 1fr;align-items:end;}
+  .footer-bottom{flex-direction:row;justify-content:space-between;}
+}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="scroll-progress" aria-hidden="true"><span data-progress-bar></span></div>
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- =========================================================
+     HEADER / NAVIGATION
+     ========================================================= -->
+<header class="site-header" id="header" data-header>
+  <div class="container header-inner">
+    <a href="#top" class="logo-mark" aria-label="Harsh Crafts, home">
+      <span class="logo-name">HARSH CRAFTS</span>
+      <span class="logo-sub">Garment Manufacturing</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <ul data-nav-list>
+        <li><a href="#services" data-nav-link>Services</a></li>
+        <li><a href="#what-we-make" data-nav-link>What We Make</a></li>
+        <li><a href="#process" data-nav-link>Process</a></li>
+        <li><a href="#about" data-nav-link>About</a></li>
+        <li><a href="#contact" data-nav-link>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <!-- GET STARTED CTA: replace YOUR_GOOGLE_SHEET_LINK_HERE with your real Google Sheet / Form link -->
+      <a class="btn btn-primary btn-small" href="https://forms.gle/riTvwu1urSgt13bA6" target="_blank" rel="noopener noreferrer">Get Started</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu" data-menu-toggle>
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobile-nav" data-mobile-nav>
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="#services" data-nav-link data-mobile-link>Services</a></li>
+        <li><a href="#what-we-make" data-nav-link data-mobile-link>What We Make</a></li>
+        <li><a href="#process" data-nav-link data-mobile-link>Process</a></li>
+        <li><a href="#about" data-nav-link data-mobile-link>About</a></li>
+        <li><a href="#contact" data-nav-link data-mobile-link>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-nav-foot">
+      <a class="btn btn-primary btn-on-dark btn-large" href="https://forms.gle/riTvwu1urSgt13bA6" target="_blank" rel="noopener noreferrer" data-mobile-link>Get Started</a>
+      <p>Udaipur, Rajasthan, India</p>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- =========================================================
+       HERO
+       ========================================================= -->
+  <section class="hero" id="top" aria-label="Introduction">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Udaipur &middot; Rajasthan &middot; India</span>
+        <h1>
+          <span>Garment</span>
+          <span>Manufacturing</span>
+          <span>& Job Work</span>
+        </h1>
+        <p class="hero-lead">Harsh Crafts manufactures Both Men's and ladies&rsquo; wear for clothing brands, boutiques and wholesalers.
+                             From sampling and small batches to larger production runs,
+                             we support your garment manufacturing needs.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-large" href="https://forms.gle/riTvwu1urSgt13bA6" target="_blank" rel="noopener noreferrer">Get Started</a>
+          <a class="btn btn-ghost" href="#services">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!--
+          IMAGE PLACEHOLDER: Hero photo
+          Replace the <div class="img-placeholder"> block below with:
+          <img src="images/hero.jpg" alt="Garment manufacturing floor at Harsh Crafts, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+          Recommended: a landscape or portrait factory/production photo, at least 1200px on the short side.
+        -->
+            <img src="/hero.png" alt="Garment manufacturing floor at Harsh Crafts, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+      
+        <div class="badge-seal">
+          <svg class="badge-seal-ring" viewBox="0 0 200 200" aria-hidden="true" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <path id="sealPath" d="M100,100 m-84,0 a84,84 0 1,1 168,0 a84,84 0 1,1 -168,0"/>
+            </defs>
+            <text>
+              <textPath href="#sealPath" xlink:href="#sealPath" startOffset="0%">Harsh Crafts &#8226; Udaipur, Rajasthan &#8226; Garment Manufacturing &#8226; </textPath>
+            </text>
+          </svg>
+          <div class="badge-seal-center">
+            <strong><span data-count-to="3000">0</span>+</strong>
+            <span>Pieces / Month</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CAPABILITY MARQUEE
+       ========================================================= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">Shirts</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Ladies&rsquo; Wear</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Job Work</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Sampling</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Small Batches</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Finishing</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Packing</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item">Udaipur, Rajasthan</span><span class="marquee-sep">&#8226;</span>
+      <span class="marquee-item marquee-dup">Shirts</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Ladies&rsquo; Wear</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Job Work</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Sampling</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Small Batches</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Finishing</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Packing</span><span class="marquee-sep marquee-dup">&#8226;</span>
+      <span class="marquee-item marquee-dup">Udaipur, Rajasthan</span><span class="marquee-sep marquee-dup">&#8226;</span>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       CAPABILITY BAR
+       ========================================================= -->
+  <section class="cap-bar" aria-label="Capability overview">
+    <dl class="cap-grid container">
+      <div class="cap-item reveal"><dt><span data-count-to="3000">0</span>+</dt><dd>Pieces / Month</dd></div>
+      <div class="cap-item reveal"><dt>Shirts</dt><dd>Men&rsquo;s &amp; Women&rsquo;s</dd></div>
+      <div class="cap-item reveal"><dt>Ladies&rsquo; Wear</dt><dd>Custom Production</dd></div>
+      <div class="cap-item reveal"><dt>Job Work</dt><dd>Stitching + Manufacturing</dd></div>
+    </dl>
+  </section>
+
+  <!-- =========================================================
+       INTRODUCTION
+       ========================================================= -->
+  <section class="intro reveal" aria-label="Introduction to Harsh Crafts">
+    <div class="container intro-grid">
+      <span class="intro-mark" aria-hidden="true"></span>
+      <div class="intro-body">
+        <span class="eyebrow">Harsh Crafts</span>
+        <h2 style="margin-top:1.25rem;">Manufacturing built around your requirements.</h2>
+        <p>Whether you need complete garment manufacturing or stitching job work, Harsh Crafts provides flexible production support for clothing businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SERVICES
+       ========================================================= -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What We Do</span>
+        <h2 id="services-heading">From production support to finished garments.</h2>
+      </div>
+
+      <div class="service-list">
+        <article class="service-item reveal">
+          <span class="service-num">01</span>
+          <div>
+            <h3>Complete Manufacturing</h3>
+            <p>Complete garment production according to your design, fabric, measurements and finishing requirements.</p>
+          </div>
+        </article>
+        <article class="service-item reveal">
+          <span class="service-num">02</span>
+          <div>
+            <h3>Stitching &amp; Job Work</h3>
+            <p>Have your own fabric and materials? We handle stitching and production according to your specifications.</p>
+          </div>
+        </article>
+        <article class="service-item reveal">
+          <span class="service-num">03</span>
+          <div>
+            <h3>Sampling &amp; Small Batches</h3>
+            <p>Start with samples or smaller production quantities while testing new designs and collections.</p>
+          </div>
+        </article>
+        <article class="service-item reveal">
+          <span class="service-num">04</span>
+          <div>
+            <h3>Finishing &amp; Packing</h3>
+            <p>Finishing, quality checking and packing according to your production requirements.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       WHAT WE MAKE
+       ========================================================= -->
+  <section class="what-we-make" id="what-we-make" aria-labelledby="make-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Capabilities</span>
+        <h2 id="make-heading">Men's & ladies&rsquo; wear.</h2>
+      </div>
+
+      <div class="make-grid">
+        <article class="make-card reveal reveal-img">
+          <!--
+            IMAGE PLACEHOLDER: Men's shirts
+            Replace the <div class="img-placeholder"> below with:
+            <img src="images/mens-shirts.jpg" alt="Men's shirts manufactured by Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+          -->
+          <figure>
+         <img src="/men.png" alt="Garment manufacturing floor at Harsh Crafts, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+
+            <figcaption>
+              <h3>Men&rsquo;s Shirts</h3>
+              <p>Custom garment manufacturing</p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="make-card reveal reveal-img">
+          <!--
+            IMAGE PLACEHOLDER: Ladies' wear
+            Replace the <div class="img-placeholder"> below with:
+            <img src="images/ladies-wear.jpg" alt="Ladies' wear manufactured by Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+          -->
+          <figure>
+                        <img src="/ladies.png" alt="Garment manufacturing floor at Harsh Crafts, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+
+            <figcaption>
+              <h3>Ladies&rsquo; Wear</h3>
+              <p>Custom production</p>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="make-card reveal reveal-img">
+          <!--
+            IMAGE PLACEHOLDER: Custom garments
+            Replace the <div class="img-placeholder"> below with:
+            <img src="images/custom-garments.jpg" alt="Custom garment made to specification by Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+          -->
+          <figure>
+                        <img src="/custom.png" alt="Garment manufacturing floor at Harsh Crafts, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+
+            <figcaption>
+              <h3>Custom Garments</h3>
+              <p>Made to your specifications</p>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PROCESS
+       ========================================================= -->
+  <section class="process" id="process" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Process</span>
+        <h2 id="process-heading">From your design to finished garments.</h2>
+      </div>
+
+      <ol class="process-track">
+        <li class="process-step reveal">
+          <span class="process-connector" aria-hidden="true"></span>
+          <span class="process-num">01</span>
+          <h3>Share Your Design</h3>
+          <p>Send your design, sample or garment reference.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="process-connector" aria-hidden="true"></span>
+          <span class="process-num">02</span>
+          <h3>Sampling</h3>
+          <p>Discuss specifications and develop a sample when required.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="process-connector" aria-hidden="true"></span>
+          <span class="process-num">03</span>
+          <h3>Approval</h3>
+          <p>Confirm measurements, fabric, construction and finishing.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="process-connector" aria-hidden="true"></span>
+          <span class="process-num">04</span>
+          <h3>Production</h3>
+          <p>Production begins according to approved requirements.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="process-connector" aria-hidden="true"></span>
+          <span class="process-num">05</span>
+          <h3>QC &amp; Dispatch</h3>
+          <p>Finish, check, pack and prepare the order for dispatch.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FACTORY / PRODUCTION
+       ========================================================= -->
+  <section class="factory" aria-labelledby="factory-heading">
+    <div class="container">
+      <div class="factory-head reveal">
+        <span class="eyebrow eyebrow--light">Inside The Production Process</span>
+        <h2 id="factory-heading">Real production. Clear requirements. Finished garments.</h2>
+      </div>
+
+      <div class="factory-grid">
+        <!--
+          IMAGE PLACEHOLDER: Factory (large, primary gallery photo)
+          Replace with: <img src="images/factory.jpg" alt="Harsh Crafts garment factory floor, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+        -->
+        <div class="factory-item reveal reveal-img">
+          <div class="img-placeholder" role="img" aria-label="Placeholder for a factory floor photograph">
+            <img src="/factory.png" alt="Harsh Crafts garment factory floor, Udaipur" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+        <!--
+          IMAGE PLACEHOLDER: Sewing machines
+          Replace with: <img src="images/sewing-machines.jpg" alt="Sewing machines at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+        -->
+        <div class="factory-item reveal reveal-img">
+          <div class="img-placeholder" role="img" aria-label="Placeholder for a sewing machines photograph">
+            <img src="/machine.png" alt="Sewing machines at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+        <!--
+          IMAGE PLACEHOLDER: Cutting
+          Replace with: <img src="images/cutting.jpg" alt="Fabric cutting at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+        -->
+        <div class="factory-item reveal reveal-img">
+          <div class="img-placeholder" role="img" aria-label="Placeholder for a fabric cutting photograph">
+            <img src="/cutting.png" alt="Fabric cutting at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;" >
+          </div>
+        </div>
+        <!--
+          IMAGE PLACEHOLDER: Stitching
+          Replace with: <img src="images/stitching.jpg" alt="Stitching in progress at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+        -->
+        <div class="factory-item reveal reveal-img">
+          <div class="img-placeholder" role="img" aria-label="Placeholder for a stitching photograph">
+            <img src="/stiching.png" alt="Stitching in progress at Harsh Crafts" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+        <!--
+          IMAGE PLACEHOLDER: Finished garments
+          Replace with: <img src="images/finished-garments.jpg" alt="Finished garments from Harsh Crafts, ready for dispatch" style="width:100%;height:100%;object-fit:cover;">
+        -->
+        <div class="factory-item reveal reveal-img">
+          <div class="img-placeholder" role="img" aria-label="Placeholder for a finished garments photograph">
+            <img src="/finished.png" alt="Finished garments from Harsh Crafts, ready for dispatch" style="width:100%;height:100%;object-fit:cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       ABOUT
+       ========================================================= -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="container about-grid">
+      <div class="about-head reveal">
+        <span class="eyebrow">About Harsh Crafts</span>
+        <h2 id="about-heading" style="margin-top:1.25rem;">Your production partner in Udaipur.</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>Harsh Crafts is a garment manufacturing and job-work business based in Udaipur, Rajasthan.</p>
+        <p>We work with clothing businesses that need production support for Men's and ladies&rsquo; wear, offering both complete manufacturing and stitching job-work services.</p>
+        <p>Our focus is simple: understand your requirements, produce according to approved specifications and support you through the production process.</p>
+        <div class="about-owner">
+          <span class="owner-name serif">Harsh</span>
+          <span class="owner-role">Owner, Harsh Crafts</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       WHY WORK WITH US
+       ========================================================= -->
+  <section class="why-us" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why Work With Us</span>
+        <h2 id="why-heading" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Why work with Harsh Crafts</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item reveal">
+          <h3>Flexible Production</h3>
+          <p>Suitable for different production requirements.</p>
+        </div>
+        <div class="why-item reveal">
+          <h3>3,000 Pieces / Month</h3>
+          <p>Approximate production capacity.</p>
+        </div>
+        <div class="why-item reveal">
+          <h3>Complete Manufacturing</h3>
+          <p>Support across the garment production process.</p>
+        </div>
+        <div class="why-item reveal">
+          <h3>Job Work</h3>
+          <p>Stitching and production according to client specifications.</p>
+        </div>
+        <div class="why-item reveal">
+          <h3>Udaipur, Rajasthan</h3>
+          <p>Based in Udaipur.</p>
+        </div>
+        <div class="why-item reveal">
+          <h3>Custom Requirements</h3>
+          <p>Production according to approved designs and specifications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PRIMARY CTA
+       ========================================================= -->
+  <section class="cta-primary" aria-labelledby="cta-heading">
+    <div class="container cta-inner reveal">
+      <span class="eyebrow eyebrow--light">Get In Touch</span>
+      <h2 id="cta-heading">Have a garment requirement?</h2>
+      <p class="cta-sub serif">Let&rsquo;s discuss your next production.</p>
+      <p class="cta-copy">Share your garment requirement and get started with Harsh Crafts.</p>
+      <a class="btn btn-primary btn-on-dark btn-large" href="https://forms.gle/riTvwu1urSgt13bA6" target="_blank" rel="noopener noreferrer">Get Started</a>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CONTACT
+       ========================================================= -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Contact</span>
+        <h2 id="contact-heading">Let&rsquo;s talk about your production.</h2>
+      </div>
+
+      <div class="contact-grid reveal">
+        <dl class="contact-list">
+          <div class="contact-row">
+            <dt>Phone</dt>
+            <!-- Replace with your phone number, e.g. <dd><a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></dd> -->
+            <dd class="is-placeholder">7976802899</dd>
+          </div>
+          <div class="contact-row">
+            <dt>Email</dt>
+            <!-- Replace with your email address, e.g. <dd><a href="mailto:you@example.com">you@example.com</a></dd> -->
+            <dd class="is-placeholder">harsh.textile007@gmail.com</dd>
+          </div>
+          <div class="contact-row">
+            <dt>Location</dt>
+            <dd>Udaipur, Rajasthan, India</dd>
+          </div>
+        </dl>
+
+        <div class="contact-cta">
+          <p>Ready to talk about a garment manufacturing or job-work requirement? Get started and we&rsquo;ll take it from there.</p>
+          <a class="btn btn-primary btn-large" href="https://forms.gle/riTvwu1urSgt13bA6" target="_blank" rel="noopener noreferrer">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-name">HARSH CRAFTS</span>
+        <span class="logo-sub">Garment Manufacturing</span>
+        <p>Garment manufacturing and stitching job work for clothing brands, boutiques and wholesalers.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#services">Services</a>
+        <a href="#what-we-make">What We Make</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Harsh Crafts. All rights reserved.</p>
+      <p>Udaipur, Rajasthan, India</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------------------------------------------------------
+     Header shadow/blur + scroll-progress bar
+     --------------------------------------------------------- */
+  var header = document.querySelector('[data-header]');
+  var progressBar = document.querySelector('[data-progress-bar]');
+  var onScroll = function(){
+    if(window.scrollY > 8){ header.classList.add('is-scrolled'); }
+    else{ header.classList.remove('is-scrolled'); }
+
+    if(progressBar){
+      var scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      var pct = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+      progressBar.style.width = Math.min(Math.max(pct,0),100) + '%';
+    }
+  };
+  document.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  /* ---------------------------------------------------------
+     Mobile menu toggle
+     --------------------------------------------------------- */
+  var menuToggle = document.querySelector('[data-menu-toggle]');
+  var mobileNav = document.querySelector('[data-mobile-nav]');
+  var mobileLinks = document.querySelectorAll('[data-mobile-link]');
+
+  function openMenu(){
+    mobileNav.classList.add('is-open');
+    menuToggle.setAttribute('aria-expanded','true');
+    menuToggle.setAttribute('aria-label','Close menu');
+    document.body.style.overflow = 'hidden';
+    var firstLink = mobileNav.querySelector('a');
+    if(firstLink){ firstLink.focus(); }
+  }
+  function closeMenu(){
+    mobileNav.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded','false');
+    menuToggle.setAttribute('aria-label','Open menu');
+    document.body.style.overflow = '';
+  }
+  if(menuToggle && mobileNav){
+    menuToggle.addEventListener('click', function(){
+      var isOpen = mobileNav.classList.contains('is-open');
+      if(isOpen){ closeMenu(); menuToggle.focus(); } else { openMenu(); }
+    });
+    mobileLinks.forEach(function(link){
+      link.addEventListener('click', function(){ closeMenu(); });
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && mobileNav.classList.contains('is-open')){
+        closeMenu();
+        menuToggle.focus();
+      }
+    });
+  }
+
+  /* ---------------------------------------------------------
+     Scroll reveal animations (with stagger for grouped items)
+     --------------------------------------------------------- */
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var staggerGroups = [
+    '.cap-grid > .cap-item',
+    '.service-list > .service-item',
+    '.make-grid > .make-card',
+    '.process-track > .process-step',
+    '.factory-grid > .factory-item',
+    '.why-grid > .why-item'
+  ];
+  if(!prefersReducedMotion){
+    staggerGroups.forEach(function(selector){
+      document.querySelectorAll(selector).forEach(function(el, i){
+        el.style.transitionDelay = Math.min(i * 90, 360) + 'ms';
+      });
+    });
+  }
+
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window && revealEls.length){
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.15, rootMargin:'0px 0px -60px 0px'});
+    revealEls.forEach(function(el){ revealObserver.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  /* ---------------------------------------------------------
+     Count-up numbers (hero stat + capability bar stat)
+     --------------------------------------------------------- */
+  function countUp(el){
+    var target = parseInt(el.getAttribute('data-count-to'), 10) || 0;
+    if(prefersReducedMotion){
+      el.textContent = target.toLocaleString('en-US');
+      return;
+    }
+    var duration = 1400;
+    var start = null;
+    function step(timestamp){
+      if(start === null){ start = timestamp; }
+      var progress = Math.min((timestamp - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.floor(eased * target).toLocaleString('en-US');
+      if(progress < 1){ requestAnimationFrame(step); }
+      else{ el.textContent = target.toLocaleString('en-US'); }
+    }
+    requestAnimationFrame(step);
+  }
+  var countEls = document.querySelectorAll('[data-count-to]');
+  if('IntersectionObserver' in window && countEls.length){
+    var countObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          countUp(entry.target);
+          countObserver.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.4});
+    countEls.forEach(function(el){ countObserver.observe(el); });
+  } else {
+    countEls.forEach(countUp);
+  }
+
+  /* ---------------------------------------------------------
+     Active navigation state
+     --------------------------------------------------------- */
+  var navSections = ['services','what-we-make','process','about','contact']
+    .map(function(id){ return document.getElementById(id); })
+    .filter(Boolean);
+  var navLinks = document.querySelectorAll('[data-nav-link]');
+
+  function setActive(id){
+    navLinks.forEach(function(link){
+      var match = link.getAttribute('href') === '#' + id;
+      link.classList.toggle('is-active', match);
+      if(match){ link.setAttribute('aria-current','true'); }
+      else{ link.removeAttribute('aria-current'); }
+    });
+  }
+
+  if('IntersectionObserver' in window && navSections.length){
+    var navObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ setActive(entry.target.id); }
+      });
+    }, {rootMargin:'-45% 0px -50% 0px', threshold:0});
+    navSections.forEach(function(section){ navObserver.observe(section); });
+  }
+
+  /* ---------------------------------------------------------
+     Fine-pointer-only interactions: cursor glow + magnetic buttons
+     (skipped entirely on touch devices and for reduced motion)
+     --------------------------------------------------------- */
+  var hasFinePointer = window.matchMedia('(pointer:fine)').matches;
+  if(hasFinePointer && !prefersReducedMotion){
+
+    document.querySelectorAll('.factory, .cta-primary').forEach(function(section){
+      section.addEventListener('mousemove', function(e){
+        var rect = section.getBoundingClientRect();
+        var x = ((e.clientX - rect.left) / rect.width) * 100;
+        var y = ((e.clientY - rect.top) / rect.height) * 100;
+        section.style.setProperty('--mx', x + '%');
+        section.style.setProperty('--my', y + '%');
+      });
+    });
+
+    document.querySelectorAll('.btn-large').forEach(function(btn){
+      btn.addEventListener('mouseenter', function(){ btn.classList.add('is-dragging'); });
+      btn.addEventListener('mousemove', function(e){
+        var rect = btn.getBoundingClientRect();
+        var relX = e.clientX - rect.left - rect.width / 2;
+        var relY = e.clientY - rect.top - rect.height / 2;
+        btn.style.setProperty('--tx', (relX * 0.16).toFixed(1) + 'px');
+        btn.style.setProperty('--ty', (relY * 0.35).toFixed(1) + 'px');
+      });
+      btn.addEventListener('mouseleave', function(){
+        btn.classList.remove('is-dragging');
+        btn.style.setProperty('--tx', '0px');
+        btn.style.setProperty('--ty', '0px');
+      });
+    });
+  }
+
+})();
+</script>
+</body>
+</html>
